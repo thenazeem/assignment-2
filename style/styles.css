@@ -3,6 +3,9 @@
 body{
     background-color: #1A0B2E;
 }
+.bg-card{
+    background-color: #240f3f;
+}
 
 
 
@@ -50,10 +53,45 @@ body{
 
 
 
+/* video style start */
+
+ .video{
+        
+        border-radius: 10px;
+        max-width: 300px;
+        max-height: 476px;
+        display: flex;
+        flex-direction: column;
+        padding: 20px 10px;
+        background-color: #f7ebfa;
+        box-shadow: 0 6px 50px 0 #0000005e;
+    }
+    .video .img{
+        width: 100%;
+        align-items: center;
+        margin: 0 auto;
+        border-radius: 10px; 
+    }
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (max-width:576px){
     .container{
         display: block;
-       width: 100%;
+        width: 100%;
        
     }
     .card-box{
@@ -61,5 +99,6 @@ body{
         height: 310px;
         padding: 20px;
         justify-content: center;
+        
     }
 }
